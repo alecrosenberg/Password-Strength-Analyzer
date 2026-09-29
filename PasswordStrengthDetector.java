@@ -34,7 +34,7 @@ public class PasswordStrengthDetector {
 
         // length check
         int length = password.length();
-        if (length >= 16) score += 45;
+        if (length >= 16) score += 40;
         else if (length >= 12) score += 35;
         else if (length >= 10) score += 25;
         else if (length >= 8) score += 15;
